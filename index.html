@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Política de Privacidade — CRM PoC</title>
+<style>
+  :root { color-scheme: light; }
+  body {
+    margin: 0;
+    padding: 0;
+    background: #f7f7f9;
+    color: #2e2e3a;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  h1 {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 4px;
+  }
+  .subtitle {
+    color: #6a6977;
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 36px;
+    margin-bottom: 8px;
+  }
+  p, li {
+    font-size: 15px;
+    color: #2e2e3a;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  .notice {
+    background: #fff;
+    border: 1px solid #dcdce9;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 32px;
+    font-size: 14px;
+    color: #6a6977;
+  }
+  a {
+    color: #e22446;
+  }
+  footer {
+    margin-top: 48px;
+    font-size: 12px;
+    color: #8b8c9e;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de Privacidade</h1>
+  <p class="subtitle">CRM PoC — última atualização: outubro de 2026</p>
+
+  <div class="notice">
+    Esta página descreve o tratamento de dados de uma <strong>prova de conceito (PoC) acadêmica</strong> de CRM automotivo, desenvolvida como parte de um estudo sobre desenvolvimento de software conduzido por IA. Não é um produto comercial da Webmotors nem reflete a política de privacidade oficial da empresa — é a política deste projeto de demonstração específico, mantido por seu autor.
+  </div>
+
+  <h2>O que é este serviço</h2>
+  <p>
+    O CRM PoC é um sistema interno de demonstração usado para registrar e responder, em nome de uma revenda de veículos fictícia, conversas de clientes recebidas por WhatsApp, e-mail e outros canais de origem de leads (portais automotivos, por exemplo). O projeto integra oficialmente com a API do WhatsApp Business (Meta Cloud API) para registrar essas conversas automaticamente.
+  </p>
+
+  <h2>Quais dados são coletados</h2>
+  <ul>
+    <li>Nome e número de telefone do cliente que entra em contato;</li>
+    <li>Conteúdo das mensagens trocadas entre o cliente e a equipe de vendas pelo WhatsApp;</li>
+    <li>Veículo de interesse e dados do atendimento comercial (etapa da negociação, vendedor responsável, resultado);</li>
+    <li>Metadados técnicos da integração com a Meta (identificadores de mensagem, status de entrega/leitura).</li>
+  </ul>
+
+  <h2>Finalidade</h2>
+  <p>
+    Os dados são usados exclusivamente para possibilitar o atendimento comercial do cliente (responder suas mensagens, acompanhar o andamento da negociação) e, de forma agregada e sem identificação pessoal, para medir indicadores de atendimento no âmbito do projeto de pesquisa (ex.: tempo médio de primeira resposta).
+  </p>
+
+  <h2>Com quem os dados são compartilhados</h2>
+  <p>
+    Os dados não são vendidos nem compartilhados com terceiros. São acessados apenas pela equipe de atendimento da revenda (vendedores e gestores) autorizada no próprio sistema, e pela Meta Platforms, Inc., na qualidade de provedora da API de mensageria do WhatsApp usada para o envio e recebimento das mensagens.
+  </p>
+
+  <h2>Retenção</h2>
+  <p>
+    O conteúdo bruto recebido pela integração com a Meta (payload do webhook) é retido por até 7 dias, apenas para fins de reprocessamento em caso de falha técnica, e depois descartado. Os dados estruturados da conversa (mensagens, status do atendimento) são retidos enquanto o atendimento permanecer relevante para o estudo, podendo ser anonimizados ou removidos mediante solicitação.
+  </p>
+
+  <h2>Direitos do titular dos dados</h2>
+  <p>
+    Qualquer pessoa cujos dados tenham sido tratados por este sistema pode solicitar informações sobre o tratamento, correção ou exclusão de seus dados, pelo contato abaixo.
+  </p>
+
+  <h2>Contato</h2>
+  <p>
+    Dúvidas sobre esta política ou sobre o tratamento de dados neste projeto podem ser enviadas para
+    <a href="mailto:thiago.lima@webmotors.com.br">thiago.lima@webmotors.com.br</a>.
+  </p>
+
+  <footer>
+    Página mantida como parte de um projeto de pesquisa independente. Não constitui comunicação oficial da Webmotors.
+  </footer>
+</main>
+</body>
+</html>
